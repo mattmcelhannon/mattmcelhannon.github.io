@@ -8,6 +8,7 @@
             	font-family: "Arial", monospace;
 				color: #268bd2;
 				background-color: #fdf6e3;
+				font-size: 18px;
             }
 			h1, h2, h3, h4 {
 				font-family: "Rockwell", serif;
@@ -24,7 +25,7 @@
 			.job-title{
 				font-weight: bold;
 			}
-			#skills-lists {
+			.skills-lists {
 				background-color: #eee8d5;
 				width: 35%;
 				float: right;
@@ -33,22 +34,34 @@
 				font-size: 16px;
 				padding: 8px;
 			}
-			.pro-summ {
+			.skills-lists h4 {
+				text-align: center;	
+			}
+			#pro-summ {
+				padding-bottom: 5px;
+			}
+			#pro-summ p {
 				font-size: 20px;
 			}
 			#container {
 				width:800px;
 				margin: auto;
 			}
-			
+			.dates {
+				font-family: "Rockwell", serif;
+				font-weight: bold;
+				text-align: right;
+				width: 30%;
+			}
         </style>
     </head>
+	
     <div id="container">
 	<body>
         
         <h1>MATT McELHANNON</h1>
         <h2>Writer/Producer</h2>
-        <div id="skills-lists">
+        <div class="skills-lists">
 		<h4>Skills</h4>	
 			<ul>
             	<li>Creative Direction</li>
@@ -69,15 +82,18 @@
 			</ul>
 		</div>
 		
-       	<h3>PROFESSIONAL SUMMARY</h3>
-		<!-- this is a comment -->
-        <p class="pro-summ">Award-winning expertise in promotion, production, and branding, including on-air, digital, and radio spots. Excellent communicator with strong conceptual, writing, visual, and comedic skills. Creative and organized self-starter, with proven results handling multiple projects at the same time in a fast-paced environment, individually and as a part of a team, as well as interacting with clients and executives. A natural leader with the laser-focused desire to land as a member of a best-in-class creative services group - or as a wild west cowboy.</p>
+       	<div id="pro-summ">
+			<h3>PROFESSIONAL SUMMARY</h3>
+			<!-- this is a comment -->
+	        <p>Award-winning expertise in promotion, production, and branding, including on-air, digital, and radio spots. Excellent communicator with strong conceptual, writing, visual, and comedic skills. Creative and organized self-starter, with proven results handling multiple projects at the same time in a fast-paced environment, individually and as a part of a team, as well as interacting with clients and executives. A natural leader with the laser-focused desire to land as a member of a best-in-class creative services group - or as a wild west cowboy.</p>
+       	</div>
+		
         
         
 		<h3>PROFESSIONAL EXPERIENCE</h3>
 			
 			<p><span class="workplace">WARNER BROS. WORLDWIDE TELEVISION MARKETING</span><br>
-			
+				<span class="dates">2016-PRESENT</span><br>
 			<span class="job-title">Writer/Producer</span><br>
 			Create promotion to convince viewers that our programming is hilarious comedy, cutting-edge drama, and better than what’s on the other channel they just left during the break.</p>
 	        <div class="accomplishments">
@@ -88,7 +104,8 @@
 				</ul>
 			
 			<p><span class="workplace">CARTOON NETWORK</span><br>
-				<span class="job-title">Writer/Producer</span><br>			
+				<span class="dates">1996-2015</span><br>
+				<span class="job-title">Writer/Producer</span>(2005 – 2015)<br>			
 			Create promotion to convince viewers that our programming is hilarious comedy, cutting-edge drama, and better than what’s on the other channel they just left during the break.</p>
 	        <div class="accomplishments">
 				<ul>
@@ -99,7 +116,7 @@
 					<li>Created promotion for pro-social initiative that drove over <strong>1 million kids in one week</strong>, pledging to end bullying, to StopBullyingSpeakUp.com.</li>
 				</ul>	
 			
-			<p><span class="job-title">Associate Writer/Producer</span><br>
+			<p><span class="job-title">Associate Writer/Producer</span>(1999 – 2005)<br>
 			Create promotion to convince viewers that our programming is hilarious comedy, cutting-edge drama, and better than what’s on the other channel they just left during the break.</p>	
 	        <div class="accomplishments">
 				<ul>
@@ -108,7 +125,7 @@
 					<li>Awarded the <strong>2005 Gold Promax</strong> for Bumper "Halloween Bumps", the <strong>2004 Gold Promax</strong> for Boomerang "Scooberang Bumper Campaign", and the <strong>2003 Gold Promax</strong> for AD & Design: Topical Promo "Cartoon Network Kids Next Door Relaunch".</li>
 				</ul>
 				
-		        <div id="skills-lists">
+		        <div class="skills-lists">
 				<h4>Software Skills</h4>	
 					<ul>
 		            	<li>macOS</li>
