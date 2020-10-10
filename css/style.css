@@ -1,0 +1,42 @@
+body {
+	font-family: "Arial", monospace;
+	color: #268bd2;
+	background-color: #fdf6e3;
+	font-size: 18px;
+}
+h1, h2, h3, h4 {
+	font-family: "Rockwell", serif;
+}
+.workplace, .list-title {
+	font-family: "Rockwell", serif;
+	font-weight: bold;
+}
+.job-title{
+	font-weight: bold;
+}
+.skills-lists {
+	background-color: #eee8d5;
+	width: 35%;
+	float: right;
+	margin-right: 8px;
+	margin-left: 8px;
+	font-size: 16px;
+	padding: 8px;
+}
+.skills-lists h4 {
+	text-align: center;	
+}
+#pro-summ {
+	padding-bottom: 5px;
+}
+#pro-summ p {
+	font-size: 20px;
+}
+#container {
+	width:800px;
+	margin: auto;
+}
+.dates {
+	font-family: "Rockwell", serif;
+	font-weight: bold;
+}
